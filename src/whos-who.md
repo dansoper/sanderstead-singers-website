@@ -10,9 +10,9 @@ After five years as a chorister at Canterbury Cathedral, Dan moved to Trinity Sc
 
 After a year as Assistant Organist of Winchester College, he became Assistant Director of Music at Rochester Cathedral, where he directed the Girls' Choir and accompanied most Cathedral services. While at Rochester, Dan started getting an itch to work in IT, and took responsibility for the Cathedral's IT in 2008. He moved to Dartford Parish Church as Assistant Director of Music in order to expand his IT portfolio.
 
-After this didn't work, Dan was delighted to be appointed as Assistant Director of Music at St Edmundsbury Cathedral in 2011, where he enjoyed playing the newly refurbished Harrison & Harrison organ. He married Kat there in 2014 and became a Fellow of the Royal College of Organists in 2015.
+When this didn't work out, Dan was delighted to be appointed as Assistant Director of Music at St Edmundsbury Cathedral in 2011, where he enjoyed playing the newly refurbished Harrison & Harrison organ. He married Kat there in 2014 and became a Fellow of the Royal College of Organists in 2015.
 
-Dan's IT itch returned in 2016, and this time hi became a full-time developer. More than 10 years on, he is happily settled in software development, and enjoys playing the organ and conducting in his free time.
+Dan's IT itch returned in 2016, and this time he became a full-time developer. More than 10 years on, he is happily settled in software development, and enjoys playing the organ and conducting in his free time.
 
 ## Fred Irvine – Founder and Choirmaster, 1991–2019
 

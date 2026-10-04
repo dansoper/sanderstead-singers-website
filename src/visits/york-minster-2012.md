@@ -35,7 +35,7 @@ services:
     responses: "Ayleward"
     psalm: "Psalm 119 (vv 73–88)"
     canticles: "Jackson in G"
-    anthem: "Faire is the heav'n – Harris"
+    anthem: "Faire is the heaven – Harris"
   - date: 2012-08-26
     service: Eucharist
     canticles: "Coleman in C"

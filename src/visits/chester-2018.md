@@ -51,5 +51,5 @@ services:
     responses: "Spicer"
     psalm: "Psalm 119 (vv 145–176)"
     canticles: "Harwood in A flat"
-    anthem: "Seek him that maketh he seven stars – Dove"
+    anthem: "Seek him that maketh the seven stars – Dove"
 ---

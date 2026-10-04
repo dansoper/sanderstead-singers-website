@@ -1,7 +1,7 @@
 ---
 cathedral: Southwark Cathedral
 start: 1992-10-31
-kind: Choral Evensong
+kind: Evensong
 services:
   - date: 1992-10-31
     service: Evensong

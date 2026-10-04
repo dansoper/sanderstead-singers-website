@@ -47,7 +47,7 @@ services:
     responses: "Smith"
     psalm: "Psalm 91"
     canticles: "Wood in E flat (No. 2)"
-    anthem: "The fair chivaldy – Ashfield"
+    anthem: "The fair chivalry – Ashfield"
 ---
 
 This week involved a premiere of the Apostles Mass, written for the choir by Dan Soper.

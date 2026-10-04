@@ -15,7 +15,7 @@ services:
     responses: "Sanders"
     psalm: "Psalm 89"
     canticles: "Sumsion in G"
-    anthem: "Allelluia psallat – Aston"
+    anthem: "Alleluia psallat – Aston"
   - date: 1999-08-18
     service: Evensong
     responses: "Sanders"
@@ -51,5 +51,5 @@ services:
     responses: "Sanders"
     psalm: "Psalm 95"
     canticles: "Dyson in F"
-    anthem: "Hail gladdening light – Wood"
+    anthem: "Hail, gladdening light – Wood"
 ---

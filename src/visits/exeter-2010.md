@@ -36,7 +36,7 @@ services:
     anthem: "Welcome, sweet and sacred feast – Finzi"
   - date: 2010-08-21
     service: Evensong
-    introit: "Ave maris stella – Greig"
+    introit: "Ave maris stella – Grieg"
     responses: "Rose"
     psalm: "Psalm 106"
     canticles: "Stanford in G"

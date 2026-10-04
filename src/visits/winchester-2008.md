@@ -42,7 +42,7 @@ services:
     responses: "Radcliffe"
     psalm: "Psalm 86"
     canticles: "Howells Te Deum (Coll. Reg.)"
-    anthem: "Allelluia psallat – Aston"
+    anthem: "Alleluia psallat – Aston"
   - date: 2008-08-10
     service: Eucharist
     psalm: "Psalm 105 (vv 1–6)"

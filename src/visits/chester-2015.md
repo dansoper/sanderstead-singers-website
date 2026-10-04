@@ -39,7 +39,7 @@ services:
   - date: 2015-08-30
     service: Eucharist
     canticles: "Ferguson Kent Service"
-    anthem: "Tantum ergo – de Severac"
+    anthem: "Tantum ergo – de Séverac"
   - date: 2015-08-30
     service: Matins
     responses: "Spicer"
@@ -51,6 +51,6 @@ services:
     responses: "Spicer"
     psalm: "Psalm 147"
     canticles: "Howells in B minor"
-    anthem: "Hail gladdening light – Wood"
+    anthem: "Hail, gladdening light – Wood"
 ---
 

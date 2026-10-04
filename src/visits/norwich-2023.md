@@ -29,7 +29,7 @@ services:
     responses: "Statham"
     psalm: "Psalms 56 & 57"
     canticles: "Gibbons Short Service"
-    anthem: "Remember not, Lord, our offence – Purcell"
+    anthem: "Remember not, Lord, our offences – Purcell"
   - date: 2023-08-12
     service: Evensong
     responses: "Statham"

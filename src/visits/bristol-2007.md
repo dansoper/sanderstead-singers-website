@@ -24,7 +24,7 @@ services:
     responses: "Reading"
     psalm: "Psalm 91"
     canticles: "Purcell in G minor"
-    anthem: "O, where shall wisdom be found! – Boyce"
+    anthem: "O where shall wisdom be found? – Boyce"
   - date: 2007-08-23
     service: Dumb Day
   - date: 2007-08-24
@@ -33,7 +33,7 @@ services:
     responses: "Neary"
     psalm: "Psalm 116"
     canticles: "Stanford in B flat"
-    anthem: "O, how glorious – Harwood"
+    anthem: "O how glorious – Harwood"
   - date: 2007-08-25
     service: Evensong
     introit: "Oculi omnium – Wood"

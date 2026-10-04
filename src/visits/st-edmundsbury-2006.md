@@ -1,6 +1,6 @@
 ---
 cathedral: St Edmundsbury Cathedral
-start: 2006-08-07
+start: 2006-08-08
 end: 2006-08-13
 kind: Choir camp
 services:

@@ -1,7 +1,7 @@
 ---
 cathedral: Southwark Cathedral
 start: 2019-04-22
-kind: Choral Evensong
+kind: Evensong
 services:
   - date: 2019-04-22
     service: Evensong

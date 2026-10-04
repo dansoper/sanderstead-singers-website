@@ -46,7 +46,7 @@ services:
     responses: "Sanders"
     psalm: "Psalm 107 (vv 1–32)"
     canticles: "Ireland in F"
-    anthem: "Allelluia psallat – Aston"
+    anthem: "Alleluia psallat – Aston"
   - date: 2005-08-28
     service: Evensong
     responses: "Sanders"

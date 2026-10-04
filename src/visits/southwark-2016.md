@@ -1,7 +1,7 @@
 ---
 cathedral: Southwark Cathedral
 start: 2016-01-02
-kind: Choral Evensong
+kind: Evensong
 services:
   - date: 2016-01-02
     service: Evensong
