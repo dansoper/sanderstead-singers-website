@@ -15,7 +15,7 @@ services:
     responses: "Radcliffe"
     psalm: "Psalm 132"
     canticles: "Stanford in A"
-    anthem: "A hymn to the virgin – Britten"
+    anthem: "A hymn to the Virgin – Britten"
   - date: 2017-08-16
     service: Evensong
     responses: "Radcliffe"
@@ -46,6 +46,6 @@ services:
     responses: "Radcliffe"
     psalm: "Psalm 90"
     canticles: "Brewer in D"
-    anthem: "Ascribe unto the Lord – Wesley"
+    anthem: "Ascribe unto the Lord – S S Wesley"
 ---
 

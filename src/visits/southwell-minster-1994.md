@@ -10,7 +10,7 @@ services:
     responses: "Tomkins"
     psalm: "Psalm 136"
     canticles: "Stanford in C"
-    anthem: "A Hymn to the Virgin – Britten"
+    anthem: "A hymn to the Virgin – Britten"
   - date: 1994-08-16
     service: Evensong
     introit: "Open thy gates – Harrison"

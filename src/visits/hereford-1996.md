@@ -29,7 +29,7 @@ services:
     responses: "Sanders"
     psalm: "Psalms 149 & 150"
     canticles: "Wood in F (Coll. Reg.)"
-    anthem: "Hymn to St. Peter – Britten"
+    anthem: "Hymn to St Peter – Britten"
   - date: 1996-09-01
     service: Eucharist
     introit: "The Call – Lloyd"

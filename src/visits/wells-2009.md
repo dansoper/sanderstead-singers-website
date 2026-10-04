@@ -16,7 +16,7 @@ services:
     responses: "Statham"
     psalm: "Psalm 119 (vv 73–88)"
     canticles: "Rubbra in A flat"
-    anthem: "Exultate Justi – Viadana"
+    anthem: "Exultate justi – Viadana"
   - date: 2009-08-26
     service: Evensong
     responses: "Reading"
