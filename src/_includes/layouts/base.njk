@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if title and page.url != "/" %}{{ title | smart }} – {% endif %}Sanderstead Singers</title>
+    <meta name="description" content="A cathedral-visiting choir based in Sanderstead, Surrey, singing services in England's cathedrals since 1991.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="wrap">
+            <a href="/" class="site-logo"><img src="/images/logo.png" alt="Sanderstead Singers" width="413" height="147"></a>
+            <nav aria-label="Main">
+                <ul>
+                {%- for item in site.nav %}
+                    {%- set current = (item.url == "/" and page.url == "/") or (item.url != "/" and page.url.startsWith(item.url)) %}
+                    <li><a href="{{ item.url }}"{% if current %} aria-current="page"{% endif %}>{{ item.title | smart }}</a></li>
+                {%- endfor %}
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="wrap">
+        {{ content | safe }}
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap">
+            <p>&copy; {% year %} Sanderstead Singers</p>
+            <p><a href="/safeguarding/">Safeguarding</a> | <a href="/contact/">Contact</a></a></p>
+        </div>
+    </footer>
+</body>
+</html>

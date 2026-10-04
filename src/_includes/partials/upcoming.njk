@@ -1,0 +1,17 @@
+{%- if collections.upcoming.length %}
+<section class="upcoming">
+    <h2>Coming up</h2>
+    <ul class="visit-list">
+    {%- for visit in collections.upcoming %}
+        <li>
+            <span class="visit-year">{{ visit.data | visitYear }}</span>
+            <a href="{{ visit.url }}" class="visit-name">{{ visit.data.cathedral | smart }}</a>
+            <span class="visit-detail">
+                {{- visit.data | visitDates }}{% if visit.data.kind %} · {{ visit.data.kind | smart }}{% endif %}
+                {%- if visit.data.status %} · <span class="status">{{ visit.data.status | smart }}</span>{% endif %}
+            </span>
+        </li>
+    {%- endfor %}
+    </ul>
+</section>
+{%- endif %}

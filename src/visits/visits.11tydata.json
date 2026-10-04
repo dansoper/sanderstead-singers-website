@@ -1,0 +1,7 @@
+{
+    "layout": "layouts/visit.njk",
+    "permalink": "/visits/{{ page.fileSlug }}/",
+    "eleventyComputed": {
+        "title": "{{ cathedral }} {{ { start: start, year: year } | visitYear }}"
+    }
+}

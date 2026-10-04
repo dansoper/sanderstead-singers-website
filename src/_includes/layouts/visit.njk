@@ -1,0 +1,108 @@
+---
+layout: layouts/base.njk
+---
+{%- set visitData = { start: start, end: end, year: year, month: month, dateLabel: dateLabel } -%}
+{%- set columns = services | musicColumns -%}
+<article class="visit">
+    <p class="breadcrumb"><a href="/visits/">Visits</a></p>
+    <h1>{{ cathedral | smart }}</h1>
+    <p class="visit-meta">
+        <span>{{ visitData | visitDates }}</span>
+        {%- if kind %} · <span>{{ kind | smart }}</span>{% endif %}
+        {%- if status %} · <span class="status">{{ status | smart }}</span>{% endif %}
+    </p>
+
+    {%- if image %}
+    <figure class="visit-image">
+        <img src="{{ image }}" alt="{{ imageAlt or cathedral }}">
+        {%- if imageCaption %}<figcaption>{{ imageCaption | smart }}</figcaption>{% endif %}
+    </figure>
+    {%- elif cathedralImages[cathedral] %}
+    {%- set credit = cathedralImages[cathedral] %}
+    <figure class="visit-image">
+        <img src="{{ credit.src }}" alt="{{ cathedral | smart }}">
+        <figcaption>{% include "partials/credit.njk" %}</figcaption>
+    </figure>
+    {%- endif %}
+
+    {%- if content | trim %}
+    <div class="text">
+        {{ content | safe }}
+    </div>
+    {%- endif %}
+
+    {%- if services | hasMusic %}
+    <h2>Music</h2>
+    <div class="table-scroll">
+        <table class="music">
+            <thead>
+                <tr>
+                    {%- if services | hasDates %}<th scope="col">Date</th>{% endif %}
+                    <th scope="col">Service</th>
+                    {%- for col in columns %}
+                    <th scope="col">{{ col[1] }}</th>
+                    {%- endfor %}
+                </tr>
+            </thead>
+            <tbody>
+            {%- for s in services %}
+                <tr{% if not s.service or s.service == "Dumb Day" %} class="rest"{% endif %}>
+                    {%- if services | hasDates %}<td>{{ s.date | serviceDate if s.date }}</td>{% endif %}
+                    <td>{{ s.service | smart }}</td>
+                    {%- for col in columns %}
+                    <td>{{ s[col[0]] | smart }}</td>
+                    {%- endfor %}
+                </tr>
+            {%- endfor %}
+            </tbody>
+        </table>
+    </div>
+    {%- elif not status and not (visitData | isUpcoming) %}
+    <p class="note">We don't have the music list for this visit online yet.</p>
+    {%- endif %}
+
+    {%- if photos and photos.length %}
+    <h2>Photos</h2>
+    <div class="gallery">
+        {%- for photo in photos %}
+        <figure>
+            <img src="{{ photo.src }}" alt="{{ photo.alt }}" loading="lazy">
+            {%- if photo.caption %}<figcaption>{{ photo.caption | smart }}</figcaption>{% endif %}
+        </figure>
+        {%- endfor %}
+    </div>
+    {%- endif %}
+
+    {%- set others = collections.cathedrals | visitsTo(cathedral) %}
+    {%- if others.length > 1 %}
+    <aside class="other-visits">
+        <h2>Our visits to {{ cathedral | smart }}</h2>
+        <ul>
+        {%- for v in others %}
+            <li>{% if v.url == page.url %}<strong>{{ v.data | visitDates }}</strong>{% else %}<a href="{{ v.url }}">{{ v.data | visitDates }}</a>{% endif %}{% if v.data.status %} ({{ v.data.status | lower }}){% endif %}</li>
+        {%- endfor %}
+        </ul>
+    </aside>
+    {%- endif %}
+
+    {%- set previous = collections.chronological | getPreviousCollectionItem(page) %}
+    {%- set next = collections.chronological | getNextCollectionItem(page) %}
+    {%- if previous or next %}
+    <nav class="visit-pager" aria-label="Other visits">
+        {%- if previous %}
+        <a class="previous" href="{{ previous.url }}" rel="prev">
+            <span class="label">← Previous visit</span>
+            <span class="name">{{ previous.data.cathedral | smart }}</span>
+            <span class="date">{{ previous.data | visitDates }}</span>
+        </a>
+        {%- endif %}
+        {%- if next %}
+        <a class="next" href="{{ next.url }}" rel="next">
+            <span class="label">Next visit →</span>
+            <span class="name">{{ next.data.cathedral | smart }}</span>
+            <span class="date">{{ next.data | visitDates }}</span>
+        </a>
+        {%- endif %}
+    </nav>
+    {%- endif %}
+</article>

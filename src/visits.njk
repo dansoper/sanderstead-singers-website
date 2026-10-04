@@ -1,0 +1,26 @@
+---
+layout: layouts/base.njk
+title: Visits
+permalink: /visits/
+---
+<div class="text">
+    <h1>Visits</h1>
+    <p>Since our first choir camp at Salisbury in {{ site.founded }}, we have sung services at {{ collections.cathedrals | sungCount }} cathedrals and abbeys around England. Most years we spend a week in August as the visiting choir at a cathedral, and we also sing for one-off services. You can also <a href="/cathedrals/">browse our visits by cathedral</a>.</p>
+</div>
+
+{% include "partials/upcoming.njk" %}
+
+{% if collections.upcoming.length %}<h2>Past visits</h2>{% endif %}
+<ol class="visit-list">
+{%- for visit in collections.visits %}
+    <li{% if visit.data.status %} class="is-{{ visit.data.status | slugify }}"{% endif %}>
+        <span class="visit-year">{{ visit.data | visitYear }}</span>
+        <a href="{{ visit.url }}" class="visit-name">{{ visit.data.cathedral | smart }}</a>
+        <span class="visit-detail">
+            {%- if visit.data.start or visit.data.month %}{{ visit.data | visitDates }}{% endif %}
+            {%- if (visit.data.start or visit.data.month) and visit.data.kind %} · {% endif %}{{ visit.data.kind | smart }}
+            {%- if visit.data.status %} · <span class="status">{{ visit.data.status | smart }}</span>{% endif %}
+        </span>
+    </li>
+{%- endfor %}
+</ol>

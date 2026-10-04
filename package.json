@@ -1,15 +1,17 @@
 {
   "name": "sanderstead-singers-website",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Website for Sanderstead Singers",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "cathedral-images": "node scripts/fetch-cathedral-images.mjs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@11ty/eleventy": "^3.0.0"
+    "@11ty/eleventy": "^3.0.0",
+    "markdown-it": "^15.0.2"
   }
 }

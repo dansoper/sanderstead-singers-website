@@ -1,0 +1,2 @@
+{#- Attribution for a Wikimedia Commons image; expects `credit` (an entry from cathedralImages.json) -#}
+<span class="credit">Photo: <a href="{{ credit.source }}">{{ credit.artist }}</a>, {% if credit.licenceUrl %}<a href="{{ credit.licenceUrl }}">{{ credit.licence }}</a>{% else %}{{ credit.licence }}{% endif %}</span>

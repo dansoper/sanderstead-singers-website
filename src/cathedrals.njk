@@ -1,0 +1,35 @@
+---
+layout: layouts/base.njk
+title: Cathedrals
+---
+<div class="text">
+    <h1>Cathedrals</h1>
+    <p>Sanderstead Singers has sung at {{ collections.cathedrals | sungCount }} cathedrals and abbeys, from Portsmouth in the south to York Minster in the north, and from Truro in the west to Norwich in the east. Many of them we have visited more than once.</p>
+</div>
+
+<ul class="cathedral-grid">
+{%- for cathedral in collections.cathedrals %}
+    <li class="cathedral-card">
+        {%- set credit = cathedralImages[cathedral.name] %}
+        {%- if credit %}<img src="{{ credit.src }}" alt="" loading="lazy">{% else %}<div class="placeholder" aria-hidden="true">{{ cathedral.name | first }}</div>{% endif %}
+        <h2>{{ cathedral.name | smart }}</h2>
+        {%- set visits = cathedral.visits | newestFirst %}
+        <ul>
+        {%- for v in visits | limit(4) %}
+            {% include "partials/cathedral-visit.njk" %}
+        {%- endfor %}
+        </ul>
+        {%- if visits.length > 4 %}
+        <details>
+            <summary>and {{ visits.length - 4 }} more</summary>
+            <ul>
+            {%- for v in visits.slice(4) %}
+                {% include "partials/cathedral-visit.njk" %}
+            {%- endfor %}
+            </ul>
+        </details>
+        {%- endif %}
+        {%- if credit %}{% include "partials/credit.njk" %}{% endif %}
+    </li>
+{%- endfor %}
+</ul>

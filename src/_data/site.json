@@ -1,0 +1,10 @@
+{
+    "nav": [
+        { "title": "Home", "url": "/" },
+        { "title": "About", "url": "/about/" },
+        { "title": "Who's Who", "url": "/whos-who/" },
+        { "title": "Visits", "url": "/visits/" },
+        { "title": "Cathedrals", "url": "/cathedrals/" },
+        { "title": "Contact", "url": "/contact/" }
+    ]
+}

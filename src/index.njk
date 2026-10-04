@@ -1,0 +1,51 @@
+---
+layout: layouts/base.njk
+title: Home
+---
+<a class="vacancy-card" href="#director">
+    <span class="vacancy-label">Vacancy</span>
+    <strong>We&rsquo;re searching for a new Director!</strong>
+    <span class="vacancy-more">Find out more ↓</span>
+</a>
+
+<section class="home-block">
+    <h1>About Sanderstead Singers</h1>
+    <p>Sanderstead Singers is a Cathedral visiting choir with its roots in Sanderstead, Surrey, but its singers are now gathered from across the country. Each year we spend a week as the visiting choir at a cathedral, singing the daily services. We also sing at one-off services during the year.</p>
+    <p class="actions">
+        <a class="button" href="/visits/">See where we&rsquo;ve sung</a>
+        <a class="button button-secondary" href="/contact/">Contact us</a>
+    </p>
+</section>
+
+{% include "partials/upcoming.njk" %}
+
+<section class="stats">
+    Singing together since 1991
+</section>
+
+<section>
+    <h2>Recent visits</h2>
+    <ul class="recent-visits">
+    {%- for visit in collections.visits | confirmed | limit(4) %}
+        <li>
+            <a href="{{ visit.url }}">
+                {%- set photo = visit.data.image or (cathedralImages[visit.data.cathedral] or {}).src %}
+                {%- if photo %}<img src="{{ photo }}" alt="" loading="lazy">{% else %}<div class="placeholder" aria-hidden="true">{{ visit.data.cathedral | first }}</div>{% endif %}
+                <span class="name">{{ visit.data.cathedral | smart }}</span>
+                <span class="date">{{ visit.data | visitDates }}</span>
+            </a>
+        </li>
+    {%- endfor %}
+    </ul>
+    <p><a href="/visits/">All visits →</a></p>
+</section>
+
+<section class="join" id="director">
+    <h2>The search for a new Director</h2>
+    <p>More information will appear here soon. In the meantime, feel free to <a href="/contact/">contact us</a>.</p>
+</section>
+
+<!--<section class="join">
+    <h2>Sing with us</h2>
+    <p>We&rsquo;re always pleased to hear from singers who can read music and love quality church music. <a href="/contact/">Get in touch</a> to find out more.</p>
+</section>-->

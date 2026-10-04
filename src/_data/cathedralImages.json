@@ -1,0 +1,170 @@
+{
+    "Bristol Cathedral": {
+        "src": "/images/cathedrals/bristol-cathedral.jpg",
+        "artist": "NotFromUtrecht",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:West_front_of_Bristol_Cathedral.jpg"
+    },
+    "Canterbury Cathedral": {
+        "src": "/images/cathedrals/canterbury-cathedral.jpg",
+        "artist": "Tony Hisgett from Birmingham, UK",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Canterbury_Cathedral_evening_(4902497028).jpg"
+    },
+    "Chester Cathedral": {
+        "src": "/images/cathedrals/chester-cathedral.jpg",
+        "artist": "Stephen Hamilton",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Chester_Cathedral_ext_Hamilton_001.JPG"
+    },
+    "Ely Cathedral": {
+        "src": "/images/cathedrals/ely-cathedral.jpg",
+        "artist": "Verbcatcher",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Ely_Cathedral_from_Quanea_Drove_F.jpg"
+    },
+    "Exeter Cathedral": {
+        "src": "/images/cathedrals/exeter-cathedral.jpg",
+        "artist": "Antony McCallum",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Exeter-28Ap11-wyrdlight.jpg"
+    },
+    "Gloucester Cathedral": {
+        "src": "/images/cathedrals/gloucester-cathedral.jpg",
+        "artist": "Geni",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Gloucester_Cathedral_exterior_2019.JPG"
+    },
+    "Guildford Cathedral": {
+        "src": "/images/cathedrals/guildford-cathedral.jpg",
+        "artist": "Purple at English Wikipedia",
+        "licence": "Public domain",
+        "licenceUrl": null,
+        "source": "https://commons.wikimedia.org/wiki/File:Guildford_Cathedral.jpg"
+    },
+    "Hereford Cathedral": {
+        "src": "/images/cathedrals/hereford-cathedral.jpg",
+        "artist": "Diliff",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Hereford_Cathedral_Exterior_from_NW,_Herefordshire,_UK_-_Diliff.jpg"
+    },
+    "Lichfield Cathedral": {
+        "src": "/images/cathedrals/lichfield-cathedral.jpg",
+        "artist": "Roger Robinson",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:LichCathedral5.jpg"
+    },
+    "Lincoln Cathedral": {
+        "src": "/images/cathedrals/lincoln-cathedral.jpg",
+        "artist": "DrMoschi",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Lincoln_Cathedral_viewed_from_Lincoln_Castle.jpg"
+    },
+    "Norwich Cathedral": {
+        "src": "/images/cathedrals/norwich-cathedral.jpg",
+        "artist": "JackPeasePhotography",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Norwich_Cathedral_-_The_Tower_and_Spire.jpg"
+    },
+    "Peterborough Cathedral": {
+        "src": "/images/cathedrals/peterborough-cathedral.jpg",
+        "artist": "Diliff",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Peterborough_Cathedral_Exterior_1,_Cambridgeshire,_UK_-_Diliff.jpg"
+    },
+    "Portsmouth Cathedral": {
+        "src": "/images/cathedrals/portsmouth-cathedral.jpg",
+        "artist": "Lewis Hulbert",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Portsmouth_Cathedral_2014.jpg"
+    },
+    "Salisbury Cathedral": {
+        "src": "/images/cathedrals/salisbury-cathedral.jpg",
+        "artist": "Antony McCallum (WyrdLight.com)",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:SalisburyCathedral-wyrdlight-EastExt.jpg"
+    },
+    "Southwark Cathedral": {
+        "src": "/images/cathedrals/southwark-cathedral.jpg",
+        "artist": "Ethan Doyle White",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Northwest_View_of_Southwark_Cathedral_(01).jpg"
+    },
+    "Southwell Minster": {
+        "src": "/images/cathedrals/southwell-minster.jpg",
+        "artist": "DeFacto",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Southwell_Minster_2016_-_north-west_view.jpg"
+    },
+    "St Edmundsbury Cathedral": {
+        "src": "/images/cathedrals/st-edmundsbury-cathedral.jpg",
+        "artist": "Diliff",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:St_Edmundsbury_Cathedral_Exterior,_Suffolk,_UK_-_Diliff.jpg"
+    },
+    "St Paul's Cathedral": {
+        "src": "/images/cathedrals/st-pauls-cathedral.jpg",
+        "artist": "Mark Fosh",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:St_Pauls_aerial_(cropped).jpg"
+    },
+    "Truro Cathedral": {
+        "src": "/images/cathedrals/truro-cathedral.jpg",
+        "artist": "Simon Lewis",
+        "licence": "CC BY 2.5",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.5",
+        "source": "https://commons.wikimedia.org/wiki/File:Truro_stmarysst.jpg"
+    },
+    "Wells Cathedral": {
+        "src": "/images/cathedrals/wells-cathedral.jpg",
+        "artist": "Diliff",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Wells_Cathedral_West_Front_Exterior,_UK_-_Diliff.jpg"
+    },
+    "Westminster Abbey": {
+        "src": "/images/cathedrals/westminster-abbey.jpg",
+        "artist": "Antiquary",
+        "licence": "CC BY 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Westminster_Abbey,_Westminster.jpg"
+    },
+    "Winchester Cathedral": {
+        "src": "/images/cathedrals/winchester-cathedral.jpg",
+        "artist": "Antony McCallum (WyrdLight.com)",
+        "licence": "CC BY 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:WinCath30Je6-4836wiki.jpg"
+    },
+    "Worcester Cathedral": {
+        "src": "/images/cathedrals/worcester-cathedral.jpg",
+        "artist": "Edward Swift",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Worcester_Cathedral,_Worcester.jpg"
+    },
+    "York Minster": {
+        "src": "/images/cathedrals/york-minster.jpg",
+        "artist": "FEGreene",
+        "licence": "CC0",
+        "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:York_Minster_(2797690).jpg"
+    }
+}
