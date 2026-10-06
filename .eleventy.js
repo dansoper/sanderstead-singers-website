@@ -3,7 +3,7 @@ const markdownIt = require("markdown-it");
 
 // Where the site lives. Set to "/" to publish it at the root instead of the
 // holding page in landing/index.html.
-const PATH_PREFIX = "/dev/";
+const PATH_PREFIX = "/";
 
 const MUSIC_COLUMNS = [
     ["introit", "Introit"],
